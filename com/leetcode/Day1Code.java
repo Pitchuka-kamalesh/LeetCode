@@ -35,7 +35,7 @@ Explanation: The last word is "moon" with length 4.
     public static int lengthOfLastWordModel2(String arg0){
         String[] input = arg0.strip().split(" ");
 
-        return input[-1].length();
+        return input[input.length-1].length();
 
     }
 
