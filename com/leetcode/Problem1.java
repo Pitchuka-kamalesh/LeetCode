@@ -1,6 +1,6 @@
 package com.leetcode;
 
-public class Day1Code {
+public class Problem1 {
 
     /*
     * Given a string s consisting of words and spaces, return the length of the last word in the string.
@@ -38,6 +38,9 @@ Explanation: The last word is "moon" with length 4.
         return input[input.length-1].length();
 
     }
+
+
+
 
 
     public static void main(String[] args) {
